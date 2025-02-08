@@ -1,0 +1,550 @@
+/* Navbar styling */
+.navbar {
+    background-color: #212428;
+    /* Header color */
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+/* Navbar links default styling */
+.navbar-nav .nav-link {
+    color: #ffffff;
+    /* Default white color */
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    transition: color 0.3s, opacity 0.3s;
+    /* Smooth effect */
+    opacity: 1;
+    /* Fully visible by default */
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
+    /* Keep hovered item white */
+    opacity: 1;
+    /* Fully visible */
+}
+
+/* Non-hovered items become slightly dull */
+.navbar-nav .nav-link:not(:hover) {
+    opacity: 0.5;
+    /* Slightly faded */
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    background-color: #212428;
+    /* Header color */
+    padding: 60px;
+    height: 100vh;
+    padding-left: 150px;
+    padding-right: 150px;
+    /* Full-screen height */
+    box-sizing: border-box;
+    gap: 20px;
+    /* border-radius: 10px; */
+    /* Include padding in height */
+}
+
+/* Left Column */
+.left-column {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* Space between the two boxes */
+}
+
+/* Top Box */
+.top-box {
+    height: 70%;
+    background-color: #24272b;
+    /* Dark background for box */
+    box-shadow: 0 4px 8px #24272b;
+    /* Box shadow */
+    border-radius: 15px;
+    /* Smooth corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    /* Text color */
+    font-size: 1.5rem;
+    /* Text size */
+    text-align: center;
+}
+
+
+/* Top Box */
+.top-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10%;
+    background-color: #24272b;
+    box-shadow: 0 4px 8px #24272b;
+    border-radius: 15px;
+    color: #ffffff;
+    /* padding-top: 10%; */
+}
+
+/* User Icon with Circle */
+/* User Icon with Circle */
+.user-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ca0a45;
+    /* Red background */
+    border-radius: 50%;
+    /* Circle shape */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 8px 15px #4d1d30;
+    /* Rounded box-shadow */
+    margin-bottom: 60px;
+    /* Space below the icon */
+}
+
+.user-icon i {
+    font-size: 1rem;
+
+    color: #ffffff;
+    /* White user icon */
+}
+
+
+/* Title */
+.title {
+    text-align: center;
+    /* Center the text */
+    color: #ffffff;
+    font-size: 1.5rem;
+
+    margin-bottom: 10px;
+}
+
+.title span {
+    font-weight: bold;
+}
+
+.name {
+    color: #ca0a45;
+    /* Red color for Santosh */
+}
+
+/* Description */
+.description {
+    text-align: center;
+    /* Center the text */
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Icon Rows */
+.icon-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Space between the icon and text */
+    margin-bottom: 10px;
+    /* Space between rows */
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+}
+
+.icon-row i {
+    color: #ca0a45;
+    /* Red color for icons */
+
+    font-size: 0.8rem;
+}
+
+/* Bottom Box */
+/* Bottom Box Styling */
+.bottom-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #24272b;
+    box-shadow: 0 4px 8px #24272b;
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 20px;
+    gap: 15px;
+    /* Space between text and buttons */
+}
+
+/* Text Styling */
+.cv-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    /* Medium weight */
+    font-size: 16px;
+    color: #ffffff;
+    /* White text */
+    margin: 0;
+}
+
+/* Buttons Container */
+.buttons {
+    display: flex;
+    gap: 15px;
+    /* Space between buttons */
+}
+
+/* Button Styling */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #212127;
+    /* Dark background */
+    color: #ff4c4c;
+    /* White text */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    /* Medium weight */
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(33, 33, 39, 0.8);
+    /* Subtle shadow */
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
+    /* Smooth transition */
+}
+
+/* Hover Effect for Buttons */
+.btn:hover {
+    background-color: #151516;
+    /* Darker black on hover */
+    color: #ff4c4c;
+    /* Red text */
+    box-shadow: 0 6px 12px rgba(33, 33, 39, 1);
+    /* Enhanced shadow effect */
+    transform: translateY(-5px);
+}
+
+
+/* Right Column */
+.right-column {
+    width: 60%;
+    background-color: #24272b;
+    /* Dark background for photo box */
+    box-shadow: 0 4px 8px #26282b;
+    border-radius: 15px;
+    margin-left: 20px;
+    /* Space between left and right columns */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 40px;
+    /* Add margin around the image */
+}
+
+/* Photo in Right Column */
+.right-column img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures photo scales proportionally */
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Section Styling */
+#experience {
+    background-color: #212428;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    /* Horizontally center the content */
+    align-items: center;
+    /* Vertically center the content */
+    /* height: 100vh; */
+    /* Full height for the section */
+}
+
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+
+/* Experience Title (H2) */
+.my-experience {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+/* Experience Description (P) */
+.years-of-experience {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ff4c4c;
+    opacity: 0.8;
+}
+
+/* Experience Item (Card) */
+.experience-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #24272b;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(33, 33, 39, 0.8);
+    color: #ffffff;
+    text-align: center;
+
+    /* Adjust width */
+    max-width: 600px;
+    /* Ensure it doesn't stretch too wide */
+}
+
+/* Image Styling */
+.experience-image {
+    display: flex;
+    justify-content: center;
+}
+
+.experience-photo {
+    width: 60%;
+    /* Adjust width of the image */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(33, 33, 39, 0.8);
+}
+
+/* Text Styling */
+.experience-text h3,
+.experience-text p {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.experience-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.experience-text p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Section Styling */
+#education {
+    background-color: #212428;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    /* Horizontally center the content */
+    align-items: center;
+    /* Vertically center the content */
+    height: 100vh;
+    /* Full height for the section */
+}
+
+/* Education Title (H2) */
+.my-education {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+/* Education Description (P) */
+.years-of-education {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ff4c4c;
+    opacity: 0.8;
+}
+
+/* Education Item (Card) */
+
+
+/* Education Item (Card) */
+.education-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #24272b;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px #212127;
+    /* Same as the right column shadow */
+    color: #ffffff;
+    text-align: center;
+    width: 80%;
+    /* Adjust width */
+    max-width: 600px;
+    /* Ensure it doesn't stretch too wide */
+    transition: transform 0.3s ease;
+    margin: 20px;
+    /* Smooth scaling on hover */
+}
+
+.education-item:hover {
+    transform: scale(1.05);
+    /* Slightly scale up the whole card */
+    box-shadow: 0 8px 16px #26282b;
+    /* Increase shadow intensity on hover */
+}
+
+
+/* Image Styling */
+.education-image {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    /* Ensure image doesn't overflow during scaling */
+}
+
+
+.education-photo {
+    width: 60%;
+    /* Adjust width of the image */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(33, 33, 39, 0.8);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth effect */
+
+}
+
+/* Hover Effect on Image */
+.education-item:hover .education-photo {
+    transform: scale(1.1);
+    /* Slightly scale up the image on hover */
+    box-shadow: 0 4px 12px rgba(126, 124, 124, 0.8);
+    /* Add red glow around the image */
+}
+
+/* Text Styling */
+.education-text h3,
+.education-text p {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.education-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.education-text p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10%;
+}
+
+.edu-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* My Resume Section */
+#resume {
+    background-color: #212428;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+/* Tab Navigation */
+.nav-tabs .nav-link {
+    background-color: #24272b;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+/* Tab Hover Effect */
+.nav-tabs .nav-link:hover {
+    background-color: #16181c;
+}
+
+/* Active Tab Styling */
+.nav-tabs .nav-link.active {
+    background-color: #212428;
+    color: #ff4c4c;
+}
+
+/* Skills Container */
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Progress Bar Container */
+.progress {
+    width: 100%;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Progress Bar */
+.progress-bar {
+    background-color: #ff4c4c;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+}
+
+/* Skill Name Styling */
+.skill-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
